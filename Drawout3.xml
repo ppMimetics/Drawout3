@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="24" x="399" y="-187">
+  <block type="oled_cleardisplay" id="24" x="621" y="26">
     <next>
       <block type="oled_setcursor" id="33" inline="true">
         <value name="STARTX">
@@ -26,7 +26,7 @@
             </value>
             <next>
               <block type="oled_linerect" id="59">
-                <field name="OBJECT">RECT</field>
+                <field name="OBJECT">LINE</field>
                 <next>
                   <block type="oled_setcursor" id="68" inline="true">
                     <value name="STARTX">
@@ -80,7 +80,7 @@
                                     </value>
                                     <next>
                                       <block type="oled_linerect" id="113">
-                                        <field name="OBJECT">RECT</field>
+                                        <field name="OBJECT">LINE</field>
                                       </block>
                                     </next>
                                   </block>
