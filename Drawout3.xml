@@ -81,11 +81,6 @@
                                     <next>
                                       <block type="oled_linerect" id="113">
                                         <field name="OBJECT">LINE</field>
-                                        <next>
-                                          <block type="oled_drawtext" id="227">
-                                            <field name="TEXT">hi</field>
-                                          </block>
-                                        </next>
                                       </block>
                                     </next>
                                   </block>
